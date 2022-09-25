@@ -9,7 +9,7 @@ const initialTravellers = [
     time: '2022-09-25' ,
   },
   {
-    id: 3, name: 'Spite', phonenum: '80000002',
+    id: 3, name: 'Spike', phonenum: '80000002',
     time: '2022-09-25' ,
   }
 ];
