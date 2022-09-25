@@ -10,8 +10,87 @@
 
   <script src="https://unpkg.com/@babel/polyfill@7/dist/polyfill.min.js"></script>
   <style>
-    table.bordered-table th, td {border: 1px solid silver; padding: 4px;}
-    table.bordered-table {border-collapse: collapse;}
+    body
+    {
+    background-color:black;
+    background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg9.51tietu.net%2Fpic%2F2019-091100%2Fyspbfiioeshyspbfiioesh.jpg&refer=http%3A%2F%2Fimg9.51tietu.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665076555&t=d221c6ecbf5df2ff997e5128099f856c);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+    .seatEmptyori{
+      background-color:darkgrey;
+      width: 15px;
+      height: 12px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      margin: 0px 3px;
+    }
+    .seatOccupiedori{
+      background-color:red;
+      width: 15px;
+      height: 12px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      margin: 0px 3px;
+    }
+    .seatEmpty{
+      background-color:darkgrey;
+      width: 15px;
+      height: 12px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      margin: 0px 3px;
+    }
+    .seatOccupied{
+      background-color:red;
+      width: 15px;
+      height: 12px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      margin: 0px 3px;
+    }
+    .showstyle{
+      background-color:#e35a16;
+      border-radius: 3px;
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      width: 300px;
+      margin: 30px auto;
+      padding: 5px 10px;
+    }
+    .showstyle li{
+      color:white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 10px;
+    }
+    .row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:rgb(235, 235, 235);
+      width: 300px;
+      margin: 30px auto;
+      padding: 5px 10px;
+    }
+    .container{
+      justify-content: center;
+      align-items: center;
+    }
+    table.showlist th,td{
+      justify-content: center;
+      align-items: center;
+      background-color:rgb(235, 235, 235);
+      
+      width: 120px;
+      margin: 30px auto;
+      padding: 5px 10px;
+    }
+    h1{
+      color: #e35a16;
+    }
   </style>
 </head>
 
